@@ -1,0 +1,128 @@
+[
+  {
+    "service_id": "S1",
+    "person_id": "P1",
+    "partner": "A",
+    "date": "2026-10-01",
+    "fee_fen": 510
+  },
+  {
+    "service_id": "S2",
+    "person_id": "P2",
+    "partner": "B",
+    "date": "2026-10-02",
+    "fee_fen": 520
+  },
+  {
+    "service_id": "S3",
+    "person_id": "P3",
+    "partner": "A",
+    "date": "2026-10-03",
+    "fee_fen": 530
+  },
+  {
+    "service_id": "S4",
+    "person_id": "P4",
+    "partner": "B",
+    "date": "2026-10-04",
+    "fee_fen": 540
+  },
+  {
+    "service_id": "S5",
+    "person_id": "P5",
+    "partner": "A",
+    "date": "2026-10-05",
+    "fee_fen": 550
+  },
+  {
+    "service_id": "S6",
+    "person_id": "P6",
+    "partner": "B",
+    "date": "2026-10-06",
+    "fee_fen": 560
+  },
+  {
+    "service_id": "S7",
+    "person_id": "P1",
+    "partner": "A",
+    "date": "2026-10-07",
+    "fee_fen": 570
+  },
+  {
+    "service_id": "S8",
+    "person_id": "P2",
+    "partner": "B",
+    "date": "2026-10-08",
+    "fee_fen": 580
+  },
+  {
+    "service_id": "S9",
+    "person_id": "P3",
+    "partner": "A",
+    "date": "2026-10-09",
+    "fee_fen": 590
+  },
+  {
+    "service_id": "S10",
+    "person_id": "P4",
+    "partner": "B",
+    "date": "2026-10-10",
+    "fee_fen": 600
+  },
+  {
+    "service_id": "S11",
+    "person_id": "P5",
+    "partner": "A",
+    "date": "2026-10-11",
+    "fee_fen": 610
+  },
+  {
+    "service_id": "S12",
+    "person_id": "P6",
+    "partner": "B",
+    "date": "2026-10-12",
+    "fee_fen": 620
+  },
+  {
+    "service_id": "S13",
+    "person_id": "P1",
+    "partner": "A",
+    "date": "2026-10-13",
+    "fee_fen": 630
+  },
+  {
+    "service_id": "S14",
+    "person_id": "P2",
+    "partner": "B",
+    "date": "2026-10-14",
+    "fee_fen": 640
+  },
+  {
+    "service_id": "S15",
+    "person_id": "P3",
+    "partner": "A",
+    "date": "2026-10-15",
+    "fee_fen": 650
+  },
+  {
+    "service_id": "S16",
+    "person_id": "P4",
+    "partner": "B",
+    "date": "2026-10-16",
+    "fee_fen": 660
+  },
+  {
+    "service_id": "S17",
+    "person_id": "P5",
+    "partner": "A",
+    "date": "2026-10-17",
+    "fee_fen": 670
+  },
+  {
+    "service_id": "S18",
+    "person_id": "P6",
+    "partner": "B",
+    "date": "2026-10-18",
+    "fee_fen": 680
+  }
+]

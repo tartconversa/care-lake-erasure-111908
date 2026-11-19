@@ -1,0 +1,134 @@
+{
+  "synthetic": true,
+  "files": [
+    {
+      "path": "data/profiles.json",
+      "format": "json",
+      "sha256": "1aa87d8b2728b3ed2e4877363c8ac99d86a96c57b003fb9c207efb2066cefaa1",
+      "rows": 6,
+      "fields": [
+        "person_id",
+        "partner",
+        "name",
+        "phone",
+        "alias"
+      ],
+      "references": []
+    },
+    {
+      "path": "data/services.json",
+      "format": "json",
+      "sha256": "9f6f5a58ff3a0cd50b96244d243b3fff3b70b87d7bc951afde518bb118eb2828",
+      "rows": 18,
+      "fields": [
+        "service_id",
+        "person_id",
+        "partner",
+        "date",
+        "fee_fen"
+      ],
+      "references": [
+        {
+          "field": "person_id",
+          "target": "data/profiles.json",
+          "target_field": "person_id"
+        }
+      ]
+    },
+    {
+      "path": "data/authorities.json",
+      "format": "json",
+      "sha256": "54942d901b4f861ab7938372c1a095bf44b13c1bdd9e014b152a0485f71c2d97",
+      "rows": 3,
+      "fields": [
+        "authority_id",
+        "person_id",
+        "partner",
+        "fields",
+        "from_date",
+        "until_date",
+        "kind"
+      ],
+      "references": [
+        {
+          "field": "person_id",
+          "target": "data/profiles.json",
+          "target_field": "person_id"
+        }
+      ]
+    },
+    {
+      "path": "data/requests.json",
+      "format": "json",
+      "sha256": "ce058a52962c9083c99eab7e7f7128548089af76ef1bf2352f3d6c87ed6ca02f",
+      "rows": 2,
+      "fields": [
+        "request_id",
+        "person_id",
+        "partner",
+        "fields",
+        "received_at"
+      ],
+      "references": [
+        {
+          "field": "person_id",
+          "target": "data/profiles.json",
+          "target_field": "person_id"
+        }
+      ]
+    },
+    {
+      "path": "data/managed_export.json",
+      "format": "json",
+      "sha256": "c55a1c4606149f3c84570ab6c6a9cc39dc9d13ddd03910845370a542300b424c",
+      "rows": 12,
+      "fields": [
+        "service_id",
+        "person_id",
+        "partner",
+        "date",
+        "fee_fen",
+        "phone"
+      ],
+      "references": [
+        {
+          "field": "service_id",
+          "target": "data/services.json",
+          "target_field": "service_id"
+        }
+      ]
+    },
+    {
+      "path": "data/copies.json",
+      "format": "json",
+      "sha256": "e04afea0ea49998f37f6a3078b4d7a81ac7eb8023b9b3e9fa363c9dcc6d5eea3",
+      "rows": 3,
+      "fields": [
+        "copy_id",
+        "path",
+        "parents",
+        "availability",
+        "identifying_fields"
+      ],
+      "references": [
+        {
+          "field": "parents",
+          "target": "data/copies.json",
+          "target_field": "copy_id"
+        }
+      ]
+    },
+    {
+      "path": "data/incoming.json",
+      "format": "json",
+      "sha256": "4fea9b03c6d99bf9aa2eec5ba66a90568956182be4e4e38241e7dfd76c0e7e4e",
+      "rows": 2,
+      "fields": [
+        "delivery_id",
+        "received_at",
+        "payload"
+      ],
+      "references": []
+    }
+  ]
+}

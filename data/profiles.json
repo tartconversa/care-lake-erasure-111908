@@ -1,0 +1,44 @@
+[
+  {
+    "person_id": "P1",
+    "partner": "A",
+    "name": "合成人员1",
+    "phone": "00000000001",
+    "alias": "I1"
+  },
+  {
+    "person_id": "P2",
+    "partner": "B",
+    "name": "合成人员2",
+    "phone": "00000000002",
+    "alias": "I2"
+  },
+  {
+    "person_id": "P3",
+    "partner": "A",
+    "name": "合成人员3",
+    "phone": "00000000003",
+    "alias": "I3"
+  },
+  {
+    "person_id": "P4",
+    "partner": "B",
+    "name": "合成人员4",
+    "phone": "00000000004",
+    "alias": "I4"
+  },
+  {
+    "person_id": "P5",
+    "partner": "A",
+    "name": "合成人员5",
+    "phone": "00000000005",
+    "alias": "I5"
+  },
+  {
+    "person_id": "P6",
+    "partner": "B",
+    "name": "合成人员6",
+    "phone": "00000000006",
+    "alias": "I6"
+  }
+]

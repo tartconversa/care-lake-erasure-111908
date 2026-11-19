@@ -1,0 +1,42 @@
+[
+  {
+    "authority_id": "A1",
+    "person_id": "P1",
+    "partner": "A",
+    "fields": [
+      "name",
+      "phone",
+      "alias",
+      "service_id"
+    ],
+    "from_date": "2026-10-01",
+    "until_date": "2026-11-05",
+    "kind": "service"
+  },
+  {
+    "authority_id": "A2",
+    "person_id": "P1",
+    "partner": "A",
+    "fields": [
+      "name",
+      "phone",
+      "alias",
+      "service_id"
+    ],
+    "from_date": "2026-11-10",
+    "until_date": "2026-12-01",
+    "kind": "service"
+  },
+  {
+    "authority_id": "R1",
+    "person_id": "P2",
+    "partner": "B",
+    "fields": [
+      "service_id",
+      "fee_fen"
+    ],
+    "from_date": "2026-10-01",
+    "until_date": "2026-11-20",
+    "kind": "settlement"
+  }
+]

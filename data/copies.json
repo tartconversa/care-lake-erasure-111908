@@ -1,0 +1,40 @@
+[
+  {
+    "copy_id": "C1",
+    "path": "data/profiles.json",
+    "parents": [],
+    "availability": "available",
+    "identifying_fields": [
+      "person_id",
+      "name",
+      "phone",
+      "alias"
+    ]
+  },
+  {
+    "copy_id": "C2",
+    "path": "data/services.json",
+    "parents": [
+      "C1"
+    ],
+    "availability": "available",
+    "identifying_fields": [
+      "person_id",
+      "service_id"
+    ]
+  },
+  {
+    "copy_id": "C3",
+    "path": "data/managed_export.json",
+    "parents": [
+      "C1",
+      "C2"
+    ],
+    "availability": "initially_offline",
+    "identifying_fields": [
+      "person_id",
+      "service_id",
+      "phone"
+    ]
+  }
+]

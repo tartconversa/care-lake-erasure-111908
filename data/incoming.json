@@ -1,0 +1,24 @@
+[
+  {
+    "delivery_id": "D1",
+    "received_at": "2026-11-07T10:00:00+08:00",
+    "payload": {
+      "service_id": "S1",
+      "person_id": "P1",
+      "partner": "A",
+      "date": "2026-10-01",
+      "fee_fen": 510
+    }
+  },
+  {
+    "delivery_id": "D2",
+    "received_at": "2026-11-11T10:00:00+08:00",
+    "payload": {
+      "service_id": "NEW1",
+      "person_id": "P1",
+      "partner": "A",
+      "date": "2026-11-11",
+      "fee_fen": 510
+    }
+  }
+]

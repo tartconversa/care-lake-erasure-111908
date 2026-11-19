@@ -1,0 +1,20 @@
+[
+  {
+    "request_id": "E1",
+    "person_id": "P1",
+    "partner": "A",
+    "fields": [
+      "phone"
+    ],
+    "received_at": "2026-11-05T10:00:00+08:00"
+  },
+  {
+    "request_id": "E2",
+    "person_id": "P2",
+    "partner": null,
+    "fields": [
+      "*"
+    ],
+    "received_at": "2026-11-06T10:00:00+08:00"
+  }
+]
