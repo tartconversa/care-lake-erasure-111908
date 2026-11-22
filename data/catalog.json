@@ -4,7 +4,7 @@
     {
       "path": "data/profiles.json",
       "format": "json",
-      "sha256": "1aa87d8b2728b3ed2e4877363c8ac99d86a96c57b003fb9c207efb2066cefaa1",
+      "sha256": "bfab8169632a2d07e35f912c210e1bf96c38b15c7ee42c0f8e5bacaa5d3eab23",
       "rows": 6,
       "fields": [
         "person_id",
@@ -18,7 +18,7 @@
     {
       "path": "data/services.json",
       "format": "json",
-      "sha256": "9f6f5a58ff3a0cd50b96244d243b3fff3b70b87d7bc951afde518bb118eb2828",
+      "sha256": "63e2b586262d9c437a7a301cecb70698f32692ac189d1082feabb84e7687b326",
       "rows": 18,
       "fields": [
         "service_id",
@@ -38,7 +38,7 @@
     {
       "path": "data/authorities.json",
       "format": "json",
-      "sha256": "54942d901b4f861ab7938372c1a095bf44b13c1bdd9e014b152a0485f71c2d97",
+      "sha256": "074aa2fc0bfa576f563888af6696d9caa02f16f1025d9f663ae71b142d817321",
       "rows": 3,
       "fields": [
         "authority_id",
@@ -60,7 +60,7 @@
     {
       "path": "data/requests.json",
       "format": "json",
-      "sha256": "ce058a52962c9083c99eab7e7f7128548089af76ef1bf2352f3d6c87ed6ca02f",
+      "sha256": "ce89ee88f92a7ae30194d0d592162d13bbbf9174091d14c5a928e998a149c434",
       "rows": 2,
       "fields": [
         "request_id",
@@ -80,7 +80,7 @@
     {
       "path": "data/managed_export.json",
       "format": "json",
-      "sha256": "c55a1c4606149f3c84570ab6c6a9cc39dc9d13ddd03910845370a542300b424c",
+      "sha256": "c1d609dc9d6a3c3aaef22950a754c04f74676850c28ea443066cb900b6147d87",
       "rows": 12,
       "fields": [
         "service_id",
@@ -101,7 +101,7 @@
     {
       "path": "data/copies.json",
       "format": "json",
-      "sha256": "e04afea0ea49998f37f6a3078b4d7a81ac7eb8023b9b3e9fa363c9dcc6d5eea3",
+      "sha256": "78a2fc0824065fda3ece11e44bd1cb1fb44868ab639bfc447b9aaa5492a43d8e",
       "rows": 3,
       "fields": [
         "copy_id",
@@ -121,7 +121,7 @@
     {
       "path": "data/incoming.json",
       "format": "json",
-      "sha256": "4fea9b03c6d99bf9aa2eec5ba66a90568956182be4e4e38241e7dfd76c0e7e4e",
+      "sha256": "2e55ccdbb0db3d07509d1b31b991099dbfd9b8008ea62498a31f247579e03e06",
       "rows": 2,
       "fields": [
         "delivery_id",
